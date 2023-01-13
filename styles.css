@@ -107,6 +107,12 @@ main {
 .exposicao-roupas1-texto-e-setas {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.exposicao-roupas1-texto-e-setas p {
+    font-size: 32px;
+    font-weight: 400;
 }
 
 .setas {
@@ -117,15 +123,61 @@ main {
 .exposicao-roupas1-imagem-preco {
     display: flex;
     justify-content: space-between;
+    padding: 32px 0;
 }
 
 .exposicao-roupas1-card {
     width: 260px;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .exposicao-roupas1-card img {
     width: 100%;
 }
+
+.exposicao-texto {
+    padding: 20px 0 0 4px;
+    font-weight: 500;
+}
+
+.exposicao-preco {
+    padding: 0px 0 0 8px;
+    font-weight: 500;
+}
+
+.sobre-a-marca {
+    display: flex;
+    padding: 42px 0;
+}
+
+.sobre-a-marca img {
+    width: 50%;
+}
+
+.texto-sobre-a-marca {
+    display: flex;
+    flex-direction: column;
+    padding: 90px 80px 0 90px;
+}
+
+.sobre-a-marca-titulo {
+    font-size: 42px;
+    font-weight: 500;
+}
+
+.sobre-a-marca-subtitulo {
+    padding-top: 10px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.sobre-a-marca-texto-em-si {
+    padding-top: 16px;
+    font-size: 14px;
+}
+
+.sobre-a-marca a {
+    padding-top: 24px;
+}
+
