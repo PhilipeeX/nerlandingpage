@@ -63,6 +63,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 42px;
 }
 
 .categoria-card {
@@ -89,4 +90,42 @@ main {
 .categoria-card p {
     font-size: 25px;
     font-weight:500;
+}
+
+.texto-inspirador-texto {
+    padding: 62px 162px;
+    font-size: 4rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.exposicao-roupas1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.exposicao-roupas1-texto-e-setas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.setas {
+    display: flex;
+    gap: 20px;
+}
+
+.exposicao-roupas1-imagem-preco {
+    display: flex;
+    justify-content: space-between;
+}
+
+.exposicao-roupas1-card {
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.exposicao-roupas1-card img {
+    width: 100%;
 }
