@@ -99,18 +99,19 @@ main {
     text-align: center;
 }
 
-.exposicao-roupas1 {
+.exposicao-roupas {
     display: flex;
     flex-direction: column;
+    padding: 0 42px;
 }
 
-.exposicao-roupas1-texto-e-setas {
+.exposicao-roupas-texto-e-setas {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.exposicao-roupas1-texto-e-setas p {
+.exposicao-roupas-texto-e-setas p {
     font-size: 32px;
     font-weight: 400;
 }
@@ -120,19 +121,19 @@ main {
     gap: 20px;
 }
 
-.exposicao-roupas1-imagem-preco {
+.exposicao-roupas-imagem-preco {
     display: flex;
     justify-content: space-between;
     padding: 32px 0;
 }
 
-.exposicao-roupas1-card {
-    width: 260px;
+.exposicao-roupas-card {
+    width: 240px;
     display: flex;
     flex-direction: column;
 }
 
-.exposicao-roupas1-card img {
+.exposicao-roupas-card img {
     width: 100%;
 }
 
@@ -142,42 +143,106 @@ main {
 }
 
 .exposicao-preco {
-    padding: 0px 0 0 8px;
+    padding: 0 0 0 4px;
     font-weight: 500;
 }
 
-.sobre-a-marca {
+.img-texto-descritivo {
     display: flex;
-    padding: 42px 0;
+    padding: 42px;
 }
 
-.sobre-a-marca img {
-    width: 50%;
+.img-texto-descritivo img {
+    max-width: 540px;
 }
 
-.texto-sobre-a-marca {
+.texto-sobre {
     display: flex;
     flex-direction: column;
     padding: 90px 80px 0 90px;
 }
 
-.sobre-a-marca-titulo {
+.texto-titulo {
     font-size: 42px;
     font-weight: 500;
 }
 
-.sobre-a-marca-subtitulo {
+.texto-subtitulo {
     padding-top: 10px;
     font-weight: 500;
     font-size: 16px;
 }
 
-.sobre-a-marca-texto-em-si {
+.texto-em-si {
     padding-top: 16px;
     font-size: 14px;
 }
 
-.sobre-a-marca a {
+.img-texto-descritivo a {
     padding-top: 24px;
+    font-weight: 500;
 }
 
+.exposicao-preco-promocao {
+    padding: 0 0 0 4px;
+    font-weight: 500;
+    color: #C10303;
+}
+
+.preco-antigo {
+    text-decoration: line-through;
+    color: #828282;
+    font-size: 14px;
+}
+
+.botao-fundo-preto {
+    background-color: black;
+    color: white;
+    border-radius: none;
+    padding: 14px 32px;
+    margin-top: 16px;
+    width: 60%;
+}
+
+.botao-fundo-preto:hover {
+    cursor: pointer;
+}
+
+.inscreva-se {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 62px 42px;
+}
+
+.texto-titulo {
+    max-width: 580px;
+    text-align: center;
+}
+
+.input-email {
+    margin-top: 16px;
+    font-size: 18px;
+    text-align: center;
+    padding: 16px;
+    border: none;
+    border-bottom: solid 1px black;
+    width: 580px;
+}
+
+.input-email:focus {
+    border: none;
+}
+
+.botao-fundo-preto-inscreva-se {
+    background-color: black;
+    color: white;
+    border-radius: none;
+    padding: 14px 32px;
+    margin-top: 16px;
+    width: 580px;
+}
+
+.botao-fundo-preto-inscreva-se:hover {
+    cursor: pointer;
+}
