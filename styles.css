@@ -13,7 +13,7 @@ body {
 }
 
 a {
-    color: black
+    color: #000000;
 }
 
 header {
@@ -216,7 +216,7 @@ main {
 }
 
 .texto-titulo {
-    max-width: 580px;
+    max-width: 500px;
     text-align: center;
 }
 
@@ -227,7 +227,7 @@ main {
     padding: 16px;
     border: none;
     border-bottom: solid 1px black;
-    width: 580px;
+    width: 500px;
 }
 
 .input-email:focus {
@@ -240,9 +240,68 @@ main {
     border-radius: none;
     padding: 14px 32px;
     margin-top: 16px;
-    width: 580px;
+    width: 500px;
 }
 
 .botao-fundo-preto-inscreva-se:hover {
     cursor: pointer;
+}
+
+footer {
+    color: #ffffff;
+    background-color: #000000;
+    display: block;
+    margin: auto;
+    max-width: 1080px;
+}
+
+footer p {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+footer a {
+    color: white;
+    font-size: 12px;
+}
+
+footer i {
+    font-size: 18px;
+}
+
+.footer-flex {
+    display: flex;
+    padding: 64px;
+    gap: 62px;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.sobre-nos {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.categorias {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.entrega {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
